@@ -9,6 +9,7 @@ export default function Home() {
 	const hasMounted = useHasMounted();
 
 	if (!hasMounted) return null;
+	
 
 	return (
 		<>
